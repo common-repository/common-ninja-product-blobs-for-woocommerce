@@ -1,0 +1,49 @@
+ .cn-integrations.cn-integrations-plugin {
+  display: block;
+  height: calc(100vh - 32px);
+  overflow: hidden;
+  margin: 0;
+  border: none;
+}
+
+.cn-integrations.cn-integrations-error img {
+  padding-bottom: 20px;
+  width: 280px;
+}
+
+.cn-integrations.cn-integrations-error {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 18vh;
+  color: #1b1b1b;
+  line-height: 1.5;
+}
+
+.cn-integrations.cn-integrations-error a.question-mark {
+  position: relative;
+  padding: 0px 7px 0px 2px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: inherit;
+}
+
+.cn-integrations.cn-integrations-error a.question-mark:after {
+  content: "?";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #b046f1;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cn-integrations.cn-integrations-error a.action {
+  padding: 10px 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: white;
+  background: #b046f1;
+  border-radius: 20px;
+  text-decoration: none;
+}
